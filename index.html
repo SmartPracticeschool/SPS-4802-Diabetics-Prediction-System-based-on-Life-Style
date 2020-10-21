@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Sample Form</title>
+    <style>
+        .diabetis
+        {
+            width:300px;
+            height:25px;
+            background-color:#fffbfc;
+            border-style: ridge;
+            border-color:rgb(199, 186, 74);
+            border-radius:6px;
+        }
+        body
+        {
+            font-family:sans-serif;
+        }
+        #sub
+        {
+            width:200px;
+            height:25px;
+            background-color:#7962a3;
+            border-style: ridge;
+            border-color:rgb(117, 63, 63);
+            border-radius:6px;
+        }
+    </style>
+</head>
+<body style="background-color:#615c4e">
+    <center>
+        <h1 style="color:rgb(245, 245, 245);">Diabetes Prediction System</h1>
+        <div style="background-color:#83a8a5;">
+        <br/><br/>
+        {% if result %}
+        <p style="color:rgb(195, 0, 255);font-size:30px;"> Diabetes Result: {{result}}</p>
+        {% endif %}
+        {% if err_msg %}
+        <p style="color:red;font-size:15px;">{{err_msg}}</p>
+        {% endif %}
+        <br/>
+        <form method="post" action="/">
+            <input type="text" name="a" class="diabetis" placeholder="   Enter Pregnancies" required><br/><br/>
+            <input type="text" name="b" class="diabetis" placeholder="   Enter Glocouse Levels" required><br/><br/>
+            <input type="text" name="c" class="diabetis" placeholder="   Enter Blood Pressure" required><br/><br/>
+            <input type="text" name="d" class="diabetis" placeholder="   Enter Skin Thickness" required><br/><br/>
+            <input type="text" name="e" class="diabetis" placeholder="   Enter Insulin" required><br/><br/>
+            <input type="text" name="f" class="diabetis" placeholder="   Enter BMI" required><br/><br/>
+            <input type="text" name="g" class="diabetis" placeholder="   Enter Pedigree Function Value" required><br/><br/>
+            <input type="text" name="h" class="diabetis" placeholder="   Enter Age" required><br/><br/>
+            <input type="submit" value="Submit" id="sub">
+            <br/><br/><br/>
+        </form>
+        </div>
+    </center>
+</body>
+</html>
