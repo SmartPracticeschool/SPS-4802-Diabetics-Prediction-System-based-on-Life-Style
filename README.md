@@ -1,7 +1,7 @@
 ## SPS-4802-Diabetics-Prediction-System-based-on-Life-Style
 # Diabetics Prediction System based on Life Style
 
-Please find the link to the video: https://drive.google.com/file/d/17TVQJRGyhzDvreMFz3Xfg3tmFNMw8Yh0/view?usp=sharing
+Please find the link to the video: https://drive.google.com/file/d/1BYqbQlz4wKwpJ8JCXbeblsRKZDe36KM0/view?usp=sharing
 
 ### Category: Machine Learning
 
